@@ -27,13 +27,13 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Lint with pylint
       run: |
-        pylint app.py
+        pylint .
     - name: Format code with black
       run: |
-        black app.py
+        black .
     - name: Sort imports with isort
       run: |
-        isort app.py
+        isort .
     - name: Test with pytest
       run: |
         pytest
