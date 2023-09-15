@@ -1,3 +1,6 @@
 flask
 pytest
 gunicorn
+isort
+black
+pylint
