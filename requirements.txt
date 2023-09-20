@@ -4,3 +4,5 @@ gunicorn
 isort
 black
 pylint
+pandas
+numpy
